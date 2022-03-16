@@ -13,3 +13,36 @@ img {
   z-index: -1;
   opacity: 100%;
 }
+
+#clock {
+  position: relative;
+  text-align: center;
+  top: 210px;
+  font-size: 80px;
+}
+
+#login-form,
+#greeting {
+  position: relative;
+  text-align: center;
+  top: 150px;
+}
+
+#todo-form,
+#todo-list {
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
+
+#quote {
+  position: relative;
+  text-align: center;
+  top: 300px;
+}
+
+#weather {
+  position: relative;
+  text-align: right;
+  top: -350px;
+}
