@@ -1,3 +1,19 @@
+:root {
+  --font-color: white;
+  --font-size: 2.5rem;
+  --margin-left: 15px;
+  --margin: 15px;
+}
+
+body {
+  color: var(--font-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Neue Haas Grotesk Text Pro',
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: var(--margin);
+  overflow: hidden;
+  height: 100%;
+}
+
 .hidden {
   display: none;
 }
@@ -14,35 +30,106 @@ img {
   opacity: 100%;
 }
 
+#weather {
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+#temperature {
+  font-size: 1.6rem;
+}
+
+#city {
+  font-size: 1rem;
+}
+
 #clock {
   position: relative;
   text-align: center;
-  top: 210px;
-  font-size: 80px;
+  top: 188px;
+  font-size: 10rem;
+  margin: 0px;
 }
 
-#login-form,
-#greeting {
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+  top: 138px;
+  font-size: 2.8rem;
+}
+
+#login p {
+  font-weight: bold;
+}
+
+#login input {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-left: none;
+  border-bottom: 3.5px solid var(--font-color);
+  margin-left: var(--margin-left);
+  font-size: var(--font-size);
+  color: var(--font-color);
+  width: 8rem;
   text-align: center;
-  top: 150px;
+}
+
+#login input:focus {
+  outline: none;
+}
+
+#greeting {
+  margin-left: var(--margin-left);
+  font-size: var(--font-size);
 }
 
 #todo-form,
 #todo-list {
   position: relative;
   text-align: center;
-  top: 200px;
+  top: 100px;
+}
+
+#todo-form p {
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+#todo-form input {
+  width: 520px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-left: none;
+  border-bottom: 2.5px solid var(--font-color);
+  padding: 0px;
+  font-size: var(--font-size);
+  text-align: center;
+  color: var(--font-color);
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+#todo-list li {
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  font-weight: bold;
+  color: var(--font-color);
+  border: 0;
+  outline: 0;
 }
 
 #quote {
   position: relative;
+  top: 145px;
   text-align: center;
-  top: 300px;
-}
-
-#weather {
-  position: relative;
-  text-align: right;
-  top: -350px;
 }

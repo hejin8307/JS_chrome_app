@@ -4,33 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f35260a154.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/f35260a154.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
-    <h2 id="clock">00:00:00</h2>
-    <form id="login-form" class="hidden">
-      <input
-        required
-        maxlenght="15"
-        type="text"
-        placeholder="what is your name?"
-      />
-      <input type="submit" value="Log In"></input>
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter">
-    </form>
-    <ul id="todo-list">
-
-    </ul>
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
     <div id="weather">
+      <i id="weatherCondition"></i>
+      <span id="temperature"></span>
+      <div>
+        <span id="city"></span>
+      </div>
+    </div>
+    <h2 id="clock">00:00:00</h2>
+    <div id="login">
+      <p></p>
+      <form id="login-form" class="hidden">
+        <input required maxlenght="15" type="text" />
+        <!-- <input type="submit" value="Log In"></input> -->
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+    <form id="todo-form">
+      <p>What is your main focus for today?</p>
+      <input type="text" />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
       <span></span>
       <span></span>
     </div>
