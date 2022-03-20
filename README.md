@@ -12,3 +12,21 @@
 <p align="center">
   Chrome App Service
 </p>
+
+<br/>
+
+## 🛠 Function
+
+- 시간 조회
+- 위치 기반 날씨 및 온도 조회
+- 사용자 이름 입력
+- 할 일 등록 및 삭제
+
+## 📱 Screenshots 
+
+### main
+
+<img src="https://user-images.githubusercontent.com/31836035/159157653-9c5a6b67-ae25-4bb6-9282-a074cbb4ccbe.gif"/>
+
+<br/>
+
