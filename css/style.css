@@ -31,7 +31,10 @@ img {
 }
 
 #weather {
+  position: relative;
   text-align: right;
+  top: -5px;
+  right: 3px;
   font-size: 1.2rem;
 }
 
